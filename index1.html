@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>itravel</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+     .main{
+            display:flex ;
+            justify-content: space-between;
+            align-items: center;
+            background-color: rgb(30, 2, 2);
+            padding-left: 8px;
+            overflow: hidden;
+            position: sticky;
+            top: 0;
+        }
+    .t{
+        font-size: 230%;
+        font-weight: 300;
+        color: white;
+       
+    }
+    .t span{
+        letter-spacing: 2px;
+        
+    }
+    .tx input{
+        padding-left: 10px;
+        width: 240px;
+        height: 25px;
+        border: none;
+        border-radius: 1px;
+        position: relative;
+        top: 15px;
+    }
+    .has ul{
+        display:flex ;
+        justify-content: space-evenly; 
+       list-style: none;
+     
+    }
+    .has{
+        width: 40%;
+        
+    }
+    .has ul li a {
+        color: white;
+        list-style: none;
+        border: none;
+        text-decoration: none;
+    }
+    .has ul li:hover{
+        transform: scale(1.3);
+
+    }
+    .has ul li{
+        transform: 3s;
+    }
+    .s i{
+        color: rgb(109, 114, 117);
+        position: relative;
+        right:2px;
+       top: 0px;
+        
+    }
+    .s{
+        width: 25px;
+        height: 22px;
+        background-color:rgb(243, 240, 240);
+        left: 220px;
+        bottom: 9.2px;
+        border-radius: 3px;
+        position: relative;
+    }
+    .pl{
+
+            font-size: 40px;
+            font-weight: 300px;
+            color: rgb(10, 10, 31);
+            
+    }
+
+.img-container{
+            width: 500%;
+            display: flex;
+            animation: slider 20s infinite alternate-reverse;
+            overflow: hidden;
+        }
+        .img-container img{
+            width: 100%;
+            /* height: 100vh; */
+           
+        }
+        @keyframes slider {
+            0% {
+                margin-left: 0;
+            }
+            15%{
+                margin-left: 0;
+            }
+            
+            20%{
+                margin-left: -100%;
+            }
+            35%{
+                margin-left: -100%;
+            }
+            40%{
+                margin-left: -200%;
+            }
+            55%{
+                margin-left: -200%;
+            }
+            60%{
+                margin-left: -300%;
+            }
+            75%{
+                margin-left: -300%;
+            }
+            80%{
+                margin-left: -400%;
+            }
+            95%{
+                margin-left: -400%;
+            }
+            100%{
+                margin-left: 0;
+            }
+        }
+        .p{
+            font-size: 30px;
+            margin: 5px;
+            
+        }
+        .m{
+            width: 100%;
+            height: 100vh;
+        }
+        .ch img:hover{
+            transform: scale(0.8);
+        }
+   .ch img{
+    width: 200px;
+   }
+   .t  button{
+    padding: 4px;
+    position: relative;
+    bottom: 65px;
+    left: 199px;
+    border-radius: 5px;
+    background-color: rgb(246, 243, 239);
+    color: rgb(21, 147, 147);
+   }
+.box{
+    width: 200px;
+    height: 320px;
+    background: rgb(234, 231, 228);
+    box-shadow: 0 0 10px rgba(0,0,0.2);
+    padding: 30px;
+    margin: 14px 14px;
+    padding-top: px;
+}
+.ch-1 img:hover{
+            transform: scale(0.8);
+        }
+   .ch-1 img{
+    width: 200px;
+   }
+   .t-1  button{
+    padding: 4px;
+    position: relative;
+    bottom: 740px;
+    left: 599px;
+    border-radius: 5px;
+    background-color: rgb(209, 206, 203);
+    color: rgb(21, 147, 147);
+   }
+.box-1{
+    width: 200px;
+    height: 320px;
+    background: rgb(234, 231, 228);
+    box-shadow: 0 0 10px rgba(0,0,0.2);
+    padding: 30px;
+    margin: 14px 14px;
+   position:relative;
+   left: 400px;
+   bottom: 690px;
+}
+.ch-2 img:hover{
+            transform: scale(0.8);
+        }
+   .ch-2 img{
+    width: 200px;
+   }
+   .t-2  button{
+    padding: 4px;
+    position: relative;
+    bottom: 1162px;
+    left: 999px;
+    border-radius: 5px;
+    background-color: rgb(246, 243, 239);
+    color: rgb(21, 147, 147);
+   }
+.box-2{
+    width: 200px;
+    height: 320px;
+    background: rgb(234, 231, 228);
+    box-shadow: 0 0 10px rgba(0,0,0.2);
+    padding: 30px;
+    margin: 14px 14px;
+   position:relative;
+   left: 800px;
+   bottom: 1120px;
+}
+.ch-3 img:hover{
+            transform: scale(0.8);
+        }
+   .ch-3 img{
+    width: 200px;
+   }
+   .t-3  button{
+    padding: 4px;
+    position: relative;
+    left: 1400px;
+   bottom: 1592px;
+    border-radius: 5px;
+    background-color: rgb(246, 243, 239);
+    color: rgb(64, 71, 71);
+   }
+.box-3{
+    width: 200px;
+    height: 320px;
+    background: rgb(234, 231, 228);
+    box-shadow: 0 0 10px rgba(0,0,0.2);
+    padding: 30px;
+    margin: 14px 14px;
+   position:relative;
+    left: 1190px;
+   bottom: 1550px;
+}
+.ch-5 img:hover{
+            transform: scale(0.8);
+        }
+   .ch-5 img{
+    width: 200px;
+   }
+   .t-5  button{
+    padding: 4px;
+    position: relative;
+    bottom: 127rem;
+    left: 1780px;
+    border-radius: 5px;
+    background-color: rgb(233, 223, 210);
+    color: rgb(21, 147, 147);
+   }
+.box-5{
+    width: 200px;
+    height: 320px;
+    background: rgb(234, 231, 228);
+    box-shadow: 0 0 10px rgba(0,0,0.2);
+    padding: 30px;
+    margin: 14px 14px;
+   position:relative;
+   left: 1580px;
+   bottom: 1980px;
+}
+.a{
+    margin: 20px 10px;
+}
+.u{
+    display: flex;
+   
+    position: relative;
+    bottom: 120rem;
+    font-size: 30px;
+    border-bottom: 1px solid grey;
+}
+.mtr {
+     width: 90%;
+    margin: auto;
+    padding: 20px;
+    position:relative;
+    bottom: 120rem;
+}
+.mtr p{
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.icons i{
+   color: black;
+}
+    </style>
+</head>
+<body>
+    <div class="main">
+        <a href="home"></a>
+        <div class="t">
+            <span>iTravells</span>
+        </div>
+        <div class="tx">
+            <div>
+                <input type="text" placeholder="search">
+              <div class="s"><i class="fa fa-search" aria-hidden="true"></i></div>
+            </div>
+        </div>
+        <nav class="has">
+            <ul>
+                <li><a href="#homme">Home</a></li>
+                <li><a href="#about-us">About us</a></li>
+                <li><a href="#places">Places</a></li>
+                 <!-- <li><a href="./slider.html">Images</a></li> -->
+            </ul>
+        </nav>
+       </div>
+       <div class="img-container">
+        <img src="https://th.bing.com/th/id/OIP.wodFHZqy4cPbY7BOgqkckgHaFj?rs=1&pid=ImgDetMain">
+        <img src="https://www.gosahin.com/go/p/i/1563650652_birla-mandir-hyderabad1.jpg">
+        <img src="https://2.bp.blogspot.com/-1IRwtbqdDes/WYrBmAlj24I/AAAAAAAAE70/PReAszP8K1oWsACjqmX0Sw2qecfJ2Pl5QCLcBGAs/s1600/Golconda%2BFort%2Band%2BHussain%2BSagar%2BLake%2Bin%2BHyderabad1.jpg">
+        <img src="https://media-cdn.tripadvisor.com/media/photo-s/1a/a9/c1/01/jagannath-temple.jpg">
+        <img src="https://srisailamtourism.com/images/partner-tours/1-day-hyderabad-to-srisailam-sightseeing-tour-package-private-car-header.jpg">
+    </div>
+    <div class="m">
+        <a name="places"></a>
+    <span class="p">Places</span>
+    <hr>
+           <div class="box">
+            <div class="ch">
+              <a href="https://th.bing.com/th/id/OIP.wodFHZqy4cPbY7BOgqkckgHaFj?rs=1&pid=ImgDetMain"><img src="https://th.bing.com/th/id/OIP.wodFHZqy4cPbY7BOgqkckgHaFj?rs=1&pid=ImgDetMain" width="200px" height="300px"></a>
+              </div>
+            <h3>place: charminar</h3>
+            <p>tickect:<strike>100</strike>  $50</p>
+           </div>
+           <div class="t">
+            <button>Buy ticket</button>
+           </div>
+</div>
+<div class="box-1">
+    <div class="ch-1">
+       <a href="https://www.gosahin.com/go/p/i/1563650652_birla-mandir-hyderabad1.jpg"> <img src="https://www.gosahin.com/go/p/i/1563650652_birla-mandir-hyderabad1.jpg" width="200px" height="300px"></a>
+      </div>
+    <h3>place:Birla mandir</h3>
+    <p> <strike>tickect:</strike>free of cost</p>
+   </div>
+   <div class="t-1">
+    <button>Buy ticket</button>
+   </div>
+   <div class="box-2">
+    <div class="ch-2">
+       <a href="https://2.bp.blogspot.com/-1IRwtbqdDes/WYrBmAlj24I/AAAAAAAAE70/PReAszP8K1oWsACjqmX0Sw2qecfJ2Pl5QCLcBGAs/s1600/Golconda%2BFort%2Band%2BHussain%2BSagar%2BLake%2Bin%2BHyderabad1.jpg"><img src="https://2.bp.blogspot.com/-1IRwtbqdDes/WYrBmAlj24I/AAAAAAAAE70/PReAszP8K1oWsACjqmX0Sw2qecfJ2Pl5QCLcBGAs/s1600/Golconda%2BFort%2Band%2BHussain%2BSagar%2BLake%2Bin%2BHyderabad1.jpg"width="200px" height="300px"></a>
+      </div>
+    <h3>place:Golconda fort</h3>
+    <p> tickect:50$</p>
+   </div>
+   <div class="t-2">
+    <button>Buy ticket</button>
+   </div>
+   <div class="box-3">
+    <div class="ch-3">
+       <a href="https://media-cdn.tripadvisor.com/media/photo-s/1a/a9/c1/01/jagannath-temple.jpg"><img src="https://media-cdn.tripadvisor.com/media/photo-s/1a/a9/c1/01/jagannath-temple.jpg"width="200px" height="300px"></a>
+      </div>
+    <h3>place:Jaganadh temple</h3>
+    <p> tickect:50$</p>
+   </div>
+   <div class="t-3">
+    <button>Buy ticket</button>
+   </div>
+   <div class="box-5">
+    <div class="ch-5">
+       <a href="https://srisailamtourism.com/images/partner-tours/1-day-hyderabad-to-srisailam-sightseeing-tour-package-private-car-header.jpg"><img src="https://srisailamtourism.com/images/partner-tours/1-day-hyderabad-to-srisailam-sightseeing-tour-package-private-car-header.jpg"width="200px" height="300px"></a>
+      </div>
+    <h3>place:Srisailam</h3>
+    <p> tickect:50$</p>
+   </div>
+   <div class="t-5">
+    <button>Buy ticket</button>
+   </div>
+   <div class="a">
+    <a name="about-us"></a>
+    <div class="u">
+        <p>About us</p>
+          </div>
+<div class="mtr">
+    <p>this is about itravel in telangana there ere so many places are there for wathching if any one wanted to see please visit us </p>
+    <p>this is about itravel in telangana there ere so many places are there for wathching if any one wanted to see please visit us </p>
+    <p>this is about itravel in telangana there ere so many places are there for wathching if any one wanted to see please visit us </p>
+    <p>this is about itravel in telangana there ere so many places are there for wathching if any one wanted to see please visit us </p>
+    <p>this is about itravel in telangana there ere so many places are there for wathching if any one wanted to see please visit us </p>
+</div>
+<div class="icons">
+    <i class="fa fa-facebook-official" aria-hidden="true"></i>
+    <i class="fa fa whatsapp-official" aria-hidden="true"></i>
+    <i class="fa fa snapchat-official" aria-hidden="true"></i>
+    <i class="fa fa twitter-official" aria-hidden="true"></i> 
+</div>
+<p style="font-size: 30px;color: rgb(186, 182, 182); justify-content: center;align-items: center;display: flex; position:relative;bottom: 120rem;">powered by<br>code</p>
+   </div>
